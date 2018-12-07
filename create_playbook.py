@@ -5,7 +5,7 @@ import os
 
 
 HELP_TEXT = """
-Usage: ./create_playbook.py /path/to/playbookname [role1 role2 ...]
+Usage: ./create_playbook.py /path/to/playbook name [role1 role2 ...]
 Creates an empty playbook skeleton, with any roles that are specified.
 
 e.g. ./create_plafybook.py /tmp/pyplaybook web db cache
