@@ -5,8 +5,8 @@
   become: no
   vars:
     playbook_name: ansibleskeleton
-    location: /tmp/{{ playbook_name }}
-    roles: ["web", "database", "common"]
+    location: /path/to/playbook/{{ playbook_name }}
+    roles: ["role1", "role2", "role3"]
 
 
   tasks:
